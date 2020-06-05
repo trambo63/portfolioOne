@@ -29,11 +29,17 @@ header {
 
 header h1 {
     font-size: 3em;
+    color: wheat;
 }
 
 header span {
     font-size: 1.5em;
-    color: #999;
+    color: whitesmoke;
+}
+
+#header {
+    background-image: url(images/Buckeye4.jpg);
+    background-size: cover;
 }
 
 
@@ -58,6 +64,11 @@ nav a {
 
 nav a:hover {
     background: #666;
+}
+
+#aboutMe img {
+    width: 35%;
+    border: solid #444;
 }
 
 section {
