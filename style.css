@@ -6,8 +6,18 @@
     padding: 0;
 }
 
-h1, h2, h3 {
-    color: #666;
+body {
+    background-color: powderblue;
+
+}
+
+
+h1, h2 {
+    color: #444;
+}
+
+h3 {
+    color: rgb(22, 22, 22);
 }
 
 html {
@@ -29,7 +39,8 @@ header {
 
 header h1 {
     font-size: 3em;
-    color: wheat;
+    color: #444;
+    
 }
 
 header span {
@@ -38,8 +49,9 @@ header span {
 }
 
 #header {
-    background-image: url(images/Buckeye4.jpg);
-    background-size: cover;
+    background-image: url(images/ChaniaLighthouse.jpg);
+    background-position: center;
+    border: solid #666;
 }
 
 
@@ -95,13 +107,17 @@ section ul {
 }
 
 #projects article {
-    background: #ccc;
+    background-color: slategray;
     padding: 1em;
 }
 
 #projects article img {
     width: 100%;
     border: 1px solid #333;
+}
+
+#projects a:hover {
+    background: rgb(0, 0, 90);
 }
 
 footer {
