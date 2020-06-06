@@ -120,6 +120,16 @@ section ul {
     opacity: 0.3;
 }
 
+footer a:hover {
+    background: rgb(119, 119, 119);
+}
+
+footer a {
+    padding: .5em 2em;
+    text-decoration: none;
+    color: #fff;
+}
+
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
