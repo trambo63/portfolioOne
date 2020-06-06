@@ -7,13 +7,13 @@
 }
 
 body {
-    background-color: powderblue;
+    background-color: rgb(153, 152, 152);
 
 }
 
 
 h1, h2 {
-    color: #444;
+    color: rgb(29, 29, 29);
 }
 
 h3 {
@@ -39,7 +39,7 @@ header {
 
 header h1 {
     font-size: 3em;
-    color: #444;
+    color: rgb(31, 31, 31);
     
 }
 
@@ -51,7 +51,7 @@ header span {
 #header {
     background-image: url(images/ChaniaLighthouse.jpg);
     background-position: center;
-    border: solid #666;
+    border: solid #444;
 }
 
 
@@ -117,7 +117,7 @@ section ul {
 }
 
 #projects a:hover {
-    background: rgb(0, 0, 90);
+    opacity: 0.3;
 }
 
 footer {
