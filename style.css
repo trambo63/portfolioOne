@@ -8,7 +8,8 @@
 
 body {
     background-color: rgb(153, 152, 152);
-
+    background-image: url(images/pexels-jaymantri-4827.jpg);
+    background-attachment: fixed;
 }
 
 
@@ -45,14 +46,15 @@ header h1 {
 
 header span {
     font-size: 1.5em;
-    color: whitesmoke;
+    color: rgb(31, 31, 31);
+    /* color: whitesmoke; */
 }
 
-#header {
+/* #header {
     background-image: url(images/ChaniaLighthouse.jpg);
     background-position: center;
     border: solid #444;
-}
+} */
 
 
 nav {
@@ -85,9 +87,9 @@ nav a:hover {
 
 section {
     margin: 1em 0;
-
     padding: 3em;
     min-height:  20em;
+    font-weight: bold;
 }
 
 section > p {
